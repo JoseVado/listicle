@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 500px;
+    background-image: url(https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.titulo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    max-width: 780px;
+    position: relative;
+    padding: 5% 0 0 0;
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+.centrarImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+    line-height: 24px;
+}
+
+.up img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.subrayado{
+    font-style: italic;
+    line-height: 10px;
+}
+
+hr{
+    position: relative;
+    top: -14px;
+    width: 200px;
+    color: #e6e6e6;
+}
+
+.borde{
+    line-height: 60px;
+}
+.medio{
+    line-height: 20px;
+}
+
+.contenido{
+    width: 66.67%;
+    margin: auto;
+    line-height: 15px;
+}
+
+aside{
+    float: left;
+    width: calc((100% - 66.67%)/2 - 40px);
+    text-align: right;
+    position: relative;
+    top: -22px;
+    color: rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 36px;
+}
+
+.contenido img{
+    width: 100%;
+    height: 500px;
+}
+
+.contenido h2{
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+    line-height: 30px;
+}
+
+.contenido h3{
+    color: #42b4d6;
+    font-weight: bold;
+}
+
+.contenido p{
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+}
+
